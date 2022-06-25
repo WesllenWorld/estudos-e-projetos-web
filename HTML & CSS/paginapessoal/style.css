@@ -4,15 +4,25 @@ html{
 }
 
 h1{
-    
+    color: green !important;
+    font-style: italic;
 }
 
+h2{
+    color: green !important;
+    font-style: italic;
+}
+
+h3{
+    color: green !important;
+    font-style: italic;
+}
 
 .meuNome{
-    color: red;
+    color: rgb(0, 0, 0);
     font-style: italic;
 }
 
 body{
-    background-color: green;
+    background-color: black;
 }
