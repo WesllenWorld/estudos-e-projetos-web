@@ -3,26 +3,15 @@ html{
     
 }
 
-h1{
-    color: green !important;
-    font-style: italic;
-}
-
-h2{
-    color: green !important;
-    font-style: italic;
-}
-
-h3{
-    color: green !important;
+h1, h2, h3, p{
+    color: orange !important;
     font-style: italic;
 }
 
 .meuNome{
-    color: rgb(0, 0, 0);
     font-style: italic;
 }
 
 body{
-    background-color: black;
+    
 }
