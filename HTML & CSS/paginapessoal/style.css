@@ -12,6 +12,7 @@ h1, h2, h3, p{
     font-style: italic;
 }
 
-body{
-    
+.efe1{
+    max-width: 50px;
+    max-height: 50px;
 }
