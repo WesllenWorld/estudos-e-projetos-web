@@ -1,5 +1,6 @@
 const form = document.getElementById('base');
 const listaDeTarefas = document.getElementById('tarefas');
+let divId = 0;
 
 form.onsubmit = function (e) {
     e.preventDefault();
@@ -23,26 +24,17 @@ function novoToDo(tarefa) {
 
     novaTarefa.setAttribute('type', 'checkbox');
     novaTarefa.setAttribute('id', tarefa);
-
+   
     labelTarefa.setAttribute('for', tarefa);
 
     
     labelTarefa.appendChild(textoTarefa);
 
-
+    novaTarefa.setAttribute('id', tarefa+divId);
+    divId++;
     divNova.classList.add('tarefa');
     divNova.appendChild(novaTarefa);
     divNova.appendChild(labelTarefa);
-
-    novaTarefa.addEventListener("click", function()
-    {
-      if(novaTarefa.checked == true){
-        listaDeTarefas.style.textDecoration = "line-through";
-      }else{
-        listaDeTarefas.style.textDecoration = "none";
-      }
-    });
-
     listaDeTarefas.appendChild(divNova);
 
 }
