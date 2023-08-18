@@ -1,0 +1,3 @@
+Colinha para algumas tags básicas e importantes:
+
+https://github.com/serfrontend/CursoWebFundamentosV2/blob/main/introducao/principaisTags.html
