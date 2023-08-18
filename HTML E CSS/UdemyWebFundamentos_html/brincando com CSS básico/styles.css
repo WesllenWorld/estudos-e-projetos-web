@@ -1,0 +1,46 @@
+h1 {
+    color: red;
+    font-size: 50px;
+    text-align: center;
+}
+
+h2 {
+    color: blue;
+    font-size: 40px;
+    text-align: justify;
+}
+
+li {
+    color: green;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    text-align: left;
+}
+
+.aga2{
+    color: rgb(170, 170, 42);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    text-align: left;
+}
+
+#p1{
+    color: rgb(171, 47, 47);
+    text-align: left;
+}
+#p2{
+    color: pink;
+    text-align: center;
+}
+#p3{
+    color: gray;
+    text-align: right;
+}
+
+#div1, #div2{
+    background-color: cyan;
+}
+
+html{
+    background-color: #fff3FF;
+}
