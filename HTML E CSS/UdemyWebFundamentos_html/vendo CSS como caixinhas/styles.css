@@ -1,0 +1,20 @@
+p{
+    background-color: aqua;
+    font-family: sans-serif;
+    width: 10%;
+}
+
+h3{
+    background-color: red;
+    font-family: sans-serif, Arial, Helvetica;
+    width: 10%;
+    height: 50px;
+    font-weight: normal;
+    padding: 50px;
+    border: 50px solid black;
+    text-align: center;
+}
+
+.margintest{
+    margin: 50px;
+}

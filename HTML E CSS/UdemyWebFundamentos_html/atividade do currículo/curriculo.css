@@ -1,0 +1,39 @@
+body{
+    background-color: #f8efef;
+    font-family: sans-serif;
+    padding: 0 70px 70px 70px;
+    font-size: 13px;
+}
+
+h1{
+    text-align: center;
+    background-color: #f49191;
+    border-radius: 10px;
+}
+
+.descricao-Wesllen{
+    background-color: #eeabab;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+h2{
+    background-color: cornflowerblue;
+    border-radius: 0 10px 0 10px;
+    padding: 10px;
+    border-bottom: #3939f6 solid 10px;
+}
+
+.topico{
+    text-decoration: solid;
+    font-weight: bold;
+}
+
+ul li{
+    list-style: square;
+    padding: 10px;
+    border-right: #3939f6 solid 1px;
+    border-bottom: #3939f6 solid 1px;
+    border-radius: 10px;
+}
