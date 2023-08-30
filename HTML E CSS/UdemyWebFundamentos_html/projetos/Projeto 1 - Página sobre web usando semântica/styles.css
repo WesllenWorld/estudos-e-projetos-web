@@ -1,0 +1,124 @@
+.hero {
+    background-image: url(imagens/bg-2.jpg);
+    background-size: cover;
+    background-position: right center;
+    height: 500px;
+    color: white;
+    
+}
+
+.hero-content {
+    width: 80%;
+    margin: 50px auto 0;
+    text-align: center;
+}
+
+.hero-content h1{
+    font-size: 60px;
+    text-shadow: 2px 2px 2px black;
+    text-transform: uppercase;
+}
+
+.hero-content p {
+    background-color: black;
+    opacity: 0.5;
+    padding: 20px;
+    font-size: 20px;
+    border-bottom: 5px solid white;
+    margin: 0 30%;
+}
+
+.hero ul {
+    list-style: none;
+    padding: 20px;
+    margin: 0;
+    text-align: right;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.hero ul li {
+    display: inline-block;
+    margin: 10px;
+    padding: 5px;
+    width: 70px;
+    text-align: center;
+    border-width: 3px 1px;
+    border-style: solid;
+    border-color: white;
+    background-color: black;
+    opacity: 0.5;
+    font-size: 10px;
+}
+
+.hero ul li a {
+    color: white;
+    text-decoration: none;
+
+    font-family: sans-serif;
+    text-align: right;
+}
+
+ul li:hover {
+    background-color: #6e6b6b;
+    opacity: 0.5;
+}
+
+
+
+main {
+    background-color: #cdcdcd;
+    padding: 1px;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    width: 75%;
+    
+}
+
+section {
+    margin: 10px;
+    padding: auto;
+}
+
+.sobre-a-linguagem {
+    background-color: white;
+    margin: 20px;
+    padding: 1px;
+}
+
+.sobre-a-linguagem h2 {
+    padding: 10px;
+    background-color: #ece9e9;
+    margin: 10px 5px;
+}
+
+.sobre-a-linguagem p {
+    padding: 10px;
+    
+}
+
+.saiba-mais{
+    background-color: #beb9b9;
+    padding: 12px;
+    margin: 10px;
+    display: block;
+    border-radius: 10px;
+    margin-right: auto;
+    width: fit-content;
+}
+
+footer {
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    padding: 20px;
+    color: rgb(255, 255, 255);
+    opacity: 0.6;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #cdcdcd;
+    font-family: Arial, Helvetica, sans-serif;
+}
