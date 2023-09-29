@@ -1,0 +1,67 @@
+
+html, body{
+    min-height: 100%;
+}
+
+body {
+    background-image: url("../imagens/bg-2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: #f3f1f1;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header__hero{
+    margin: auto;
+    text-align: center;
+}
+
+.header-hero__titulo{
+    margin: 50px 0 0;
+    font-size: 60px;
+    text-shadow: 2px 2px 2px black;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.header-hero__subtitulo{
+    background-color: black;
+    opacity: 0.8;
+    padding: 15px;
+    font-size: 18px;
+
+    
+    text-align: center;
+    border-bottom: 2px solid white;
+    display: inline-block;
+}
+
+.cards{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    flex-wrap: wrap;
+    width: 63%;
+    padding: 15px 0px;
+    
+}
+
+.cards-card{
+}
+
+.cards-card__img{
+    margin-bottom: 0;
+    display: block;
+}
+
+.cards-card__title{
+    margin: 0;
+    padding: 4px;
+    background-color: black;
+    opacity: 0.8;
+}
