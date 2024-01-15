@@ -1,0 +1,25 @@
+html{
+    font-size: 64.5%;
+   
+}
+
+.b1{
+    background-color: rgb(168, 245, 245);
+    font-size: 3em;
+}
+
+.b2{
+    background-color: rgb(206, 178, 233);
+    font-size: 2em;
+}
+
+.b3{
+    background-color: rgb(206, 178, 233);
+    font-size: 3rem;
+    /* Mesmo tamanho do b1, mas usando um método diferente.
+    Está pegando do root (no caso, 10px, que é 64.5% de 16px)*/
+}
+
+.b3 b{
+    font-size: 4em;
+}
