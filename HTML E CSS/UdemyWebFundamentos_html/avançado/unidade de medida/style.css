@@ -1,6 +1,6 @@
 html{
     font-size: 64.5%;
-   
+    padding-bottom: 500px;
 }
 
 .b1{
@@ -22,4 +22,17 @@ html{
 
 .b3 b{
     font-size: 4em;
+}
+
+.paddin-com-em{
+    background-color: #000;
+
+}
+
+.paddin-com-em p{
+    background-color: transparent;
+    color: red;
+    font-size: 3rem;
+    margin: 0;
+    padding: 1em;
 }
