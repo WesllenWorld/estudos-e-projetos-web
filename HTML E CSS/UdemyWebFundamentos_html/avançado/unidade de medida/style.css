@@ -36,3 +36,19 @@ html{
     margin: 0;
     padding: 1em;
 }
+
+.porcentagem{
+    background-color: #00000060;
+    width: 200px;
+    height: 200px;
+}
+
+.viewport-container{
+    font-size: 3rem;
+}
+
+.viewport{
+    background-color: rgba(0, 128, 0, 0.466);
+    height: 90vh;
+    width: 90vw;
+}
