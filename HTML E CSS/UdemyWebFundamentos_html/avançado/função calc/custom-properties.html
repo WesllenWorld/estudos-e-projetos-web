@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Wesllen Santos">
+    <title>Custom Properties / variáveis</title>
+    <meta name="description" content="Testes sobre calc()">
+
+    <style>
+
+        /* 
+        * :root é um pseudo-elemento seletor que define a variável globalmente
+        Não foi usado na aula, mas foi explicado que é comumente usado
+        * Não gera especificidade
+        
+        exemplo prático: ao invés do --header-height ser definido em html, ele é definido globalmente no root.
+        */
+
+        :root {
+            --header-height: 15rem;
+        }
+
+        */
+
+        html {
+            font-size: 62.5%;
+            /* variável, usada com var(nome-da-variável) */
+            --header-height: 15rem;
+        }
+
+        header {
+            background-color: rgba(255, 255, 0, 0.4);
+            width: 100%;
+            height: var(--header-height);
+            font-size: 2rem;
+            position: fixed;
+            top: 0;
+            left: 0;
+        }
+
+        main {
+            /* Variáveis podem ser locais assim como nas linguagens de programação */
+            --header-height: 2rem;
+            min-height: calc(100vh - var(--header-height) - 10rem);
+            background-color: #ccc;
+            font-size: 2rem;
+            margin-top: var(--header-height);
+        }
+
+        p {
+            /* Variáveis podem ser usadas em cálculos para determinar os tamanhos dos elementos */
+            margin: calc(var(--header-height) * 2);
+        }
+
+        footer {
+            height: 10rem;
+            font-size: 2rem;
+            background-color: blue;
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <header>header</header>
+    <main>main</main>
+    <footer>footer</footer>
+    </div>
+
+
+
+
+</body>
