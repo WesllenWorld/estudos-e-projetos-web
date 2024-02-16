@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Wesllen Santos">
+    <title>Vendo em detalhes border radius</title>
+    <meta name="description" content="Testes na propriedade border radius">
+
+    <style>
+        .elemento{
+            width: 3em;
+            height: 3em;
+            background-color: rgba(255, 0, 0, 0.573);
+            margin: 10em auto;
+            padding: 5em;
+
+            /* border-radius pode ser mais atributos após um '/', sendo o valor
+            antes dele o raio horizontal e o seguinte sendo o raio vertical */
+            border-radius: 0 200px 10px 100px / 0 200px 50px 70px;
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <div class="elemento"></div>
+
+</body>
+
+</html>

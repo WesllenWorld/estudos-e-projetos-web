@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Wesllen Santos">
+    <title>Outline</title>
+
+
+    <style>
+        /*
+        -Outline é literalmente a linha externa do elemento e funciona
+        similar à propriedade borda.
+        -Pode dar um efeito indesejado com a propriedade hover e o box-sizing, como no exemplo.
+        -Não altera a posição do elemento original.
+        -Pode usar a propriedade outline-offset para afastar ou aproximar
+         a linha do elemento.
+        
+        */
+
+        div{
+            margin: 5em auto;
+            width: 13em;
+            height: 10em;
+            background-color: yellow;
+            border: 4px solid red;
+        }
+
+        .com-efeito {
+            box-sizing: border-box;
+        }
+
+        .com-efeito:hover{
+            border: 10px solid blue;
+        }
+
+        .sem-efeito:hover{
+            outline: 10px solid blue;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="com-efeito">outline</div>
+    <div class="sem-efeito">outline</div>
+</body>
+
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Wesllen Santos">
+    <title>Vendo em detalhes font-shadow e text-shadow</title>
+    <meta name="description" content="Testes nas propriedades font-shadow e text-shadow">
+
+    <style>
+        .elemento{
+            width: 3em;
+            height: 3em;
+            background-color: rgba(255, 0, 0, 0.573);
+            margin: 3em auto;
+            padding: 5em;
+
+            /* border-radius pode ser mais atributos após um '/', sendo o valor
+            antes dele o raio horizontal e o seguinte sendo o raio vertical */
+            border-radius: 0 200px 10px 100px / 0 200px 50px 70px;
+
+            /*
+            -Valores podem ser negativos e funcionam no sentido contrário ao habitual nestes casos.
+            -O primeiro valor é o deslocamento horizontal, o segundo é o deslocamento vertical,
+             o terceiro é o esfumaçamento e o quarto é a cor.
+            */
+
+            box-shadow: 10px 10px 5px black;
+        }
+
+        .ampliacao-sombra{
+            
+            /*O valor de 20px remete à amplitude da sombra. Pode ser negativo também.*/
+            /*box-shadow: 10px 10px 5px 20px rgb(0, 0, 0);*/
+
+            /*.Podem haver duas sombras.*/
+            box-shadow: 10px 10px 5px 20px rgb(0, 0, 0), 20px 20px 5px 20px rgb(196, 33, 33);
+        }
+
+        /*Mesma coisa do box-shadow, mas não pode ser ampliado.*/
+        .vendo-text-shadow{
+            font-size: 3em;
+            text-align: center;
+            margin-bottom: 100px;
+            text-shadow: 20px 20px 20px rgb(0, 0, 0);
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <div class="elemento"></div>
+
+    <div class="elemento ampliacao-sombra"></div>
+
+    <h1 class="vendo-text-shadow">Se liga no texto</h1>
+
+</body>
+
+</html>

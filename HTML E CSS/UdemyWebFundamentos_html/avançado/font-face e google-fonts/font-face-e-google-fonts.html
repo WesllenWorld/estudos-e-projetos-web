@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Wesllen Santos">
+    <title>Font-face e Google fonts</title>
+
+
+    <style>
+        /*
+        -Font-face está se referindo à importação de fontes customizadas
+        
+        */
+
+        /*
+        -Google fonts são as fontes disponibilizadas pelo Google,
+        disponíveis em: https://fonts.google.com/
+        
+        */
+
+        @font-face {
+            font-family: nadia;
+            src:
+            local('Nadia-Serif'), local('Nadia Serif')
+            url(nadia/nadia-serif.ttf) format('truetype'),
+            url(nadia/nadia-serif.woff) format(woff), 
+            url(nadia/nadia-serif.svg) format('svg');
+        }
+
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap');
+
+        h1{
+            font-family: nadia, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        p{
+            font-family: roboto, sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>font-face</h1>
+
+    <p>roboto é uma das fontes</p>
+
+</body>
+
+</html>
