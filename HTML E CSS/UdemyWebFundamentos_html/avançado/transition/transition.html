@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Wesllen Santos">
+    <title>Transtition</title>
+
+
+    <style>
+        /*
+        -Transitions são animações que ocorrem quando uma propriedade CSS muda de valor.
+        -As propriedades de transição permitem que as mudanças de valores das propriedades CSS ocorram suavemente ao longo de um determinado período de tempo.
+
+        
+        */
+
+        /*  PROPRIEDADES DE TRANSIÇÃO
+        -transition-property: especifica a propriedade CSS que será afetada pela transição.
+        -transition-duration: especifica a duração da transição.
+        -transition-timing-function: especifica a curva de velocidade da transição. Possui os seguintes valores:
+            -linear: a transição ocorre em uma velocidade constante.
+            -ease: a transição ocorre lentamente no início e no final, mas rápido no meio.
+            -ease-in: a transição ocorre lentamente no início.
+            -ease-out: a transição ocorre lentamente no final.
+            -ease-in-out: a transição ocorre lentamente no início e no final.
+            -cubic-bezier(n,n,n,n): permite que você defina sua própria curva de velocidade.
+            -transition-delay: especifica um atraso para o início da transição.
+        */
+        /*Apenas width está sendo animado. Caso queira outras, precisa ser individual, 
+            colocado usando vírgula para separar ou usando o valor all para afetar todos.*/
+
+        /*Pode ser abreviado por transition: property(propriedade) duration(duração)
+        function(time function) delay(tempo do delay)
+        Ex: transition: height 2s ease-in-out 1s;
+        */
+
+        div{
+            background-color: orange;
+            width: 13em;
+            height: 8em;
+            margin: 6em auto;
+            transition-property: width, height, background-color;
+            transition-duration: 1s, 2s, 3s;
+            transition-timing-function: ease-in-out;
+            transition-delay: 0s;
+        }
+
+        div:hover{
+            width: 26em;
+            height: 19em;
+            background-color: blue;
+            
+        }
+        
+    </style>
+</head>
+<body>
+    <div></div>
+</body>
