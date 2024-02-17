@@ -1,4 +1,11 @@
-# dio-desafio-primeiro-repositorio
-Desafio de projeto sobre Git/Github
+# Repositório de estudos de envolvendo desenvolvimento web 
 
-#### O primeiro de muitos
+## Os commits de aprendizado e projetos são baseados no Curso Web Frontend Fundamentos HTML CSS JS.
+
+### Tecnologias:
+
+- HTML
+- CSS
+- JavaScript
+
+

@@ -1,0 +1,22 @@
+html{
+    color: #555;
+}
+
+header{
+    background-color: #162028;
+    color: white;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+li a{
+    text-decoration: none;
+    color: #425564;
+    padding: 10px;
+}
