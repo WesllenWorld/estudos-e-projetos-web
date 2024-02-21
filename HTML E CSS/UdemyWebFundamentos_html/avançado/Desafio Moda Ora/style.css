@@ -2,12 +2,15 @@
     --tam-titulo: 2em;
 }
 
+h1, h2 {
+    font-family: "Viaoda Libre", serif;
+}
+
 body{
     color: #555;
     font-family: 'Roboto', sans-serif;
     padding: 0;
     margin: 1.25em 5em;
-    
 }
 
 header{
@@ -22,11 +25,17 @@ header{
 header h1{
     font-size: var(--tam-titulo);
     margin: 0 0.5em 0 5em;
+    font-weight: bold;
     
     
 }
 
-.nav{
+.header-nav{
+    padding: 0;
+    margin: 0;
+}
+
+.header-nav ul{
     list-style-type: none;
     margin: 0;
     display: flex;
@@ -34,13 +43,18 @@ header h1{
     align-items: center;
 }
 
-.nav li a{
+.header-nav ul li a{
     text-decoration: none;
     color: #425564;
-    padding: 1em;
+    padding: 0;
     align-items: center;
     font-size: 1.2em;
     margin: 0 1em;
+}
+
+.header-nav ul li a:hover{
+    color: white;   
+    transition: 0.5s;
 }
 
 .container__topo{
