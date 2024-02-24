@@ -12,9 +12,9 @@
 <body>
     <div class="header-wrapper">
         <header class="header-container">
-            <img src="imagens/logoAprenser.png" alt="Logo Aprenser">
+            <img class="logo-aprenser" src="imagens/logoAprenser.png" alt="Logo Aprenser">
             <nav class="header-nav">
-                <ul>
+                <ul class="header-nav-list">
                     <li>
                         <a href="#">Cursos</a>
                     </li>
@@ -31,18 +31,29 @@
     </div>
     <div class="hero-wrapper">
         <main class="hero-container">
-            <h1>O saber é o que transforma nosso SER</h1>
-            <p class="hero-botao">Saiba mais</p>
-            <img src="imagens/HeroImage.png" alt="Moça de branco com uma flor na mão">
+            <div class="hero-text">
+                <h1>O saber é o que <br> transforma <br> nosso SER</h1>
+                <p class="hero-botao">
+                    <a href="#">Saiba mais</a>
+                </p>
+            </div>
+            <div class="hero-image">
+                <img src="imagens/HeroImage.png" alt="Moça de branco com uma flor na mão">
+            </div>
         </main>
     </div>
+
     <div class="cursos-wrapper">
         <section class="cursos-container">
-            <h2>Principais cursos</h2>
+            <h2 class="title-padding" >Principais cursos</h2>
             <section class="cursos-ofertas">
-                <article class="curso-ofertas__curso-card">
-                    <img src="imagens/curso-design.png" alt="Mãos organizando post-its">
-                    <div class="curso-card__description">
+                <article class="curso__card">
+
+
+                    
+                        
+                            <img src="imagens/curso-design.png" alt="Mãos organizando post-its">
+                        <div class="cursos-card__description">
                         <h3>Design para Web</h3>
                         <p>O curso Design para Web é perfeito para aqueles que desejam aprender a criar designs
                             atraentes e
@@ -50,19 +61,18 @@
                     </div>
                 </article>
 
-                <article class="curso-ofertas__curso-card">
+                <article class="curso__card">
                     <img src="imagens/curso-design-1.png" alt="Mãos organizando post-its">
-                    <div class="curso-card__description">
+                    <div class="cursos-card__description">
                         <h3>Front-end Developer</h3>
                         <p>Aprenda HTML, CSS e JavaScript e crie interfaces ricas e semânticas para páginas web,
-                            aplicativos
-                            on-line ou até mesmo aplicações para aparelhos celulares.</p>
+                            aplicativos on-line ou até mesmo aplicações para aparelhos celulares.</p>
                     </div>
                 </article>
 
-                <article class="curso-ofertas__curso-card">
+                <article class="curso__card">
                     <img src="imagens/curso-design-2.png" alt="Mãos organizando post-its">
-                    <div class="curso-card__description">
+                    <div class="cursos-card__description">
                         <h3>Back-end Developer</h3>
                         <p>Com este curso você vai dominar uma linguagem back-end a sua escolha, um sistema de banco de
                             dados e aprenderá como funciona o protocolo HTTP na prática.</p>
@@ -71,15 +81,15 @@
 
             </section>
 
-            <p class="cursos-ver-mais">Ver mais cursos</p>
+            <a href="#" class="cursos-ver-mais">Ver mais cursos</a>
         </section>
     </div>
 
     <div class="nossa-escola-wrapper">
         <section class="nossa-escola-container">
             <img src="imagens/nossa-escola.png" alt="Mulher jovem estudando por um laptop.">
-            <div class="nossa-escola__sobre-description">
-                <h2>Nossa Escola</h2>
+            <div class="nossa-escola__sobre">
+                <h2 class="title-padding">Nossa Escola</h2>
                 <p>Aprenda habilidades tecnológicas em demanda e alcance seus objetivos de carreira com a nossa escola
                     de
                     tecnologia online. Oferecemos uma ampla gama de cursos online, desde programação e desenvolvimento
@@ -91,15 +101,16 @@
                     de
                     tecnologia bem-sucedido.</p>
         </section>
-   
+
     </div>
 
     <div class="contatos-wrapper">
         <section class="contatos">
             <h2>Contatos</h2>
-            <img src="imagens/map.png" alt="Mapa indicando a localização da sede do Aprenser.">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3950.153022561606!2d-34.941445823746804!3d-8.085872460044753!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ab1ebc5415c655%3A0x9ec1a916c833ce7c!2sAv.%20Central%2C%205934%20-%20Jardim%20S%C3%A3o%20Paulo%2C%20Recife%20-%20PE%2C%2050781-651!5e0!3m2!1spt-BR!2sbr!4v1708788704323!5m2!1spt-BR!2sbr"
+             width="100%" height="525" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             <div class="contatos__description">
-                <address class="contatos_address">Av. da Liberdade, 1001<br>
+                <address class="contatos__address">Av. da Liberdade, 1001<br>
                     Tel.: +351 21 123 456<br>
                     E-mail: contato@aprenser.com</address>
         </section>
@@ -107,7 +118,7 @@
 
     <div class="footer-wrapper">
         <footer class="footer-container">
-            <p>Desenvolvido por Serliv</p>
+            <p>Desenvolvido por WesllenWorld</p>
         </footer>
     </div>
 

@@ -1,0 +1,211 @@
+:root{
+    --tam-h2: 2.5rem;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+    background-color: #fafafa;
+}
+
+.header-wrapper{
+    margin: 0;
+    background-color: rgb(42, 42, 42);
+}
+
+.header-container{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 1.2em 0 1.5em 0;
+    margin: 0 10em 0 5em;
+
+}
+
+.header-nav-list{
+    display: flex;
+    list-style-type: none;
+    gap: 1.5em;
+    font-size: 1.2em;
+    
+}
+
+.header-nav a{
+    text-transform: uppercase;
+    font-size: 1rem;
+    text-decoration: none;
+    color: #fdcf01;
+    outline: #fdcf01 solid 1px;
+    padding: 0.8em;
+    border-radius: 1px;
+    transition: 0.3s;
+    white-space: nowrap;
+}
+
+.header-nav a:hover{
+    outline: #7201fd solid 1px;
+    color: #7201fd;
+}
+
+.hero-container{
+    display: flex;
+    background-image: linear-gradient(to top, rgba(255, 255, 0, 0.718), transparent);
+}
+
+.hero-text{
+    margin: auto 5em;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.hero-text h1{
+    font-size: 4.5em;
+    margin: 0.5em 0 0 0;
+}
+
+.hero-text a{
+    text-decoration: none;
+    color: black;
+    background-color: #fdcf01;
+    text-align: center;
+    border-radius: 3px;
+    padding: 1em 3em;
+    font-size: 1em;
+    transition: 0.3s;
+}
+
+.hero-text a:hover{
+    background-color: #7201fd;
+    color: white;
+}
+
+.cursos-wrapper{
+    
+    font-size: 1.5em;
+}
+
+.cursos-container{
+    padding-top: 1px;
+    margin: auto;
+    text-align: center;
+}
+
+.cursos-container h2{
+    text-align: center;
+    font-size: var(--tam-h2);
+    margin: 3em 0;
+}
+
+.cursos-ofertas{
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    gap: 1.5rem;
+
+    margin: 0 3em;   
+}
+
+.curso__card{
+    flex: 1;
+    background-color: white;
+    box-shadow: rgb(238, 238, 238) 1px 1px 1px 1px, rgb(238, 238, 238) -1px -1px 1px 1px, rgb(238, 238, 238) 1px -1px 1px 1px;
+    border-radius: 10px;
+}
+
+.curso__card img{
+    display: block;
+    width: 100%;
+}
+
+.curso__card h3{
+    font-size: 1.5em;
+    margin: 0;
+}
+
+.curso__card p{
+    line-height: 1.5;
+}
+
+.cursos-card__description{
+    padding: 1em;
+}
+
+
+
+.cursos-ver-mais{
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+
+    margin: 5em 0 8em;
+    background-color: #fdcf01;
+    border-radius: 5px;
+    padding: 1em 2.5em;
+    color: inherit;
+    transition: 0.3s;
+    
+
+}
+
+.nossa-escola-wrapper{
+    background-color: rgb(1, 57, 108);
+    margin: 0;
+    padding: 0;
+}
+
+.nossa-escola-container{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 3em;
+    padding: 10em 3em 0;
+}
+
+.nossa-escola__sobre{
+    color: rgb(230, 223, 223);
+    margin: 0 1em 2em 2em;
+    
+    text-align: left;
+    font-size: 1.45rem;
+    line-height: 1.5;
+    
+    
+}
+
+.nossa-escola__sobre h2{
+    font-size: var(--tam-h2);
+    
+}
+
+.contatos-wrapper{
+    text-align: center;
+}
+
+.contatos{
+    margin: 5em;
+}
+
+.contatos h2{
+    font-size: var(--tam-h2);
+    margin: 1em;
+}
+
+.contatos__address{
+    margin: 1em 0;
+    text-align: right;
+    font-size: 1.2em;
+    line-height: 1.5;
+}
+
+.footer-wrapper{
+    background-color: rgb(42, 42, 42);
+    color: white;
+    text-align: center;
+    padding: 2em 0;
+}
+
+.footer-container p{
+    color: rgb(156, 156, 156);
+    font-size: 1.2em;
+}
